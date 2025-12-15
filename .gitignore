@@ -1,0 +1,27 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Temp folders
+temp/
+tmp/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Java
+target/
+*.class
+
+# Node
+node_modules/

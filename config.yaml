@@ -1,0 +1,31 @@
+peer:
+  name: "Mac-Office"
+  port: 8766
+
+sourceDirs:
+  - "/Users/developer/Documents/WorkFolder"
+
+targetDir: "/Users/developer/Documents/WorkFolder-backup"
+
+sync:
+  checksumAlgorithm: "SHA-256"
+  chunkSize: 1048576
+  threadPoolSize: 4
+  scanIntervalSeconds: 300
+
+conflictPolicy: "KEEP_BOTH"
+
+excludePatterns:
+  - ".*\\.tmp$"
+  - ".*\\.swp$"
+  - "\\.DS_Store$"
+
+metadata:
+  type: "SQLITE"
+  dbPath: "./metadata/sync.db"
+
+logging:
+  level: "INFO"
+  logFile: "./logs/sync.log"
+  maxFileSize: "10MB"
+  maxHistory: 7
