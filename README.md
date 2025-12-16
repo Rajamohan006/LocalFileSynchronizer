@@ -15,33 +15,6 @@
 
 <hr/>
 
-## 📸 Screenshots
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="screenshots/cli-welcome.png" width="200"/><br/>
-        <sub>CLI Interface</sub>
-      </td>
-      <td align="center">
-        <img src="screenshots/peer-discovery.png" width="200"/><br/>
-        <sub>Peer Discovery</sub>
-      </td>
-      <td align="center">
-        <img src="screenshots/sync-stats.png" width="200"/><br/>
-        <sub>Sync Statistics</sub>
-      </td>
-      <td align="center">
-        <img src="screenshots/notification.png" width="200"/><br/>
-        <sub>Notifications</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<hr/>
-
 ## 📖 Table of Contents
 
 * [Problem Statement](#-problem-statement)
